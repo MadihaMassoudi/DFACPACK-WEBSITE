@@ -95,6 +95,10 @@
 
 }
 @media screen and (max-width: 991px) {
+  .item-to-hide-rn{
+    display: none;
+  }
+
   .nav-item-cata-lo {
     position: relative;
     right: 16px;
