@@ -2,6 +2,10 @@
   color: white !important;
 }
 
+.btn-outline-light:hover {
+  background-color: #121519;
+}
+
 .dropdown-item-hover-a:hover{
   transform: scale(1.1); /* Scale up the element */
   color: grey !important;
@@ -17,6 +21,10 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+}
+
+.white-txt{
+  color: whitesmoke !important;
 }
 
 .hover-img-div{
@@ -37,13 +45,8 @@
   border-radius: 50% !important;
 }
 
-.BG{
-  background-image: url(bg-2.jpg);
-  /* background-repeat: no-repeat; */
-  background-size: cover;
-}
 .half-background {
-  background: linear-gradient(to bottom, #eaeaea, #eef9ee, #e1e1e1, #cedebd);
+  background: linear-gradient(to right, #121519, #1b231a);
   z-index: -1;
   background-repeat: no-repeat;
 }
